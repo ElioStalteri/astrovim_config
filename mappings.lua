@@ -23,6 +23,8 @@ return {
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     ["<leader>r"] = { "<cmd>r<cr>u", desc = "reload file with lsps" },
+    ["<C-d>"] = { "<C-d>zz", desc = "move down and center" },
+    ["<C-u>"] = { "<C-u>zz", desc = "move up and center" },
   },
   t = {
     -- setting a mapping to false will disable it
