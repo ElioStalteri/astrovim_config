@@ -10,6 +10,14 @@ return {
   --   end,
   -- },
   {
+    event = "VeryLazy",
+    "nvim-lua/plenary.nvim",
+  },
+  {
+    "sindrets/diffview.nvim",
+    event = "VeryLazy",
+  },
+  {
     "mg979/vim-visual-multi",
     event = "VeryLazy",
   },
