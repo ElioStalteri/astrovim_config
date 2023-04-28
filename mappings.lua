@@ -22,6 +22,8 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+    ["<leader>gD"] = { "<cmd>DiffviewOpen<cr>", desc = "Diff view open" },
+    ["<leader>gC"] = { "<cmd>DiffviewClose<cr>", desc = "Diff view close" },
     ["<leader>r"] = { "<cmd>r<cr>u", desc = "reload file with lsps" },
     ["<C-d>"] = { "<C-d>zz", desc = "move down and center" },
     ["<C-u>"] = { "<C-u>zz", desc = "move up and center" },
